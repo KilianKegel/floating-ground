@@ -1,18 +1,11 @@
 	.model flat
 .code
-_atanx87 proc C public
-
-	local float64:QWORD
-
-	movsd float64,xmm0
+_atanx87 proc C public float64:QWORD
 
 	fld float64
 
+	fld1
 	fpatan
-
-	fst float64
-
-	movsd xmm0,float64
 
 	ret
 

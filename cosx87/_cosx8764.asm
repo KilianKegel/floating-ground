@@ -4,6 +4,8 @@ _cosx87 proc public
 
 	local float64:QWORD
 
+	finit
+
 	movsd float64,xmm0
 
 	fld float64

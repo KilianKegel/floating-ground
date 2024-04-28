@@ -1,6 +1,6 @@
 
 .code
-_sqrtx87 proc public
+_atanx87 proc public
 
 	local float64:QWORD
 
@@ -8,13 +8,15 @@ _sqrtx87 proc public
 
 	fld float64
 
+	fld1
 	fpatan
 
 	fst float64
+			fsub st(0),st(0)
 
 	movsd xmm0,float64
 
 	ret
 
-_sqrtx87 endp
+_atanx87 endp
 end

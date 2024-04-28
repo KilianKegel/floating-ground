@@ -1,0 +1,3 @@
+[submodule "Visual-TORO-C-LIBRARY-for-UEFI"]
+	path = Visual-TORO-C-LIBRARY-for-UEFI
+	url = https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI.git

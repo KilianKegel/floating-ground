@@ -10,9 +10,9 @@ _sinx87 proc C public
 
 	fsin
 
-	fst float64
+;	fst float64
 
-	movsd xmm0,float64
+;	movsd xmm0,float64
 
 	ret
 

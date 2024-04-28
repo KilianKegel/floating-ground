@@ -10,9 +10,9 @@ _sqrtx87 proc C public
 
 	fsqrt
 
-	fst float64
+;	fst float64
 
-	movsd xmm0,float64
+;	movsd xmm0,float64
 
 	ret
 
