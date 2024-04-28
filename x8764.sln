@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4AB7C942-AE89-496F-B1FD-3005745342AB}"
 	ProjectSection(SolutionItems) = preProject
 		..\231917-001_80387_Pro.pdf = ..\231917-001_80387_Pro.pdf
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sinx87", "C:\Users\kilia\source\repos\x8764\sinx87\sinx87.vcxproj", "{BA6D2957-DC07-464D-BED0-FEB56DA5EDD6}"
